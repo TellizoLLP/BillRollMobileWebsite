@@ -68,27 +68,75 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="pt-32 pb-16 lg:pt-48 lg:pb-32 overflow-hidden bg-white">
+        <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-white">
+            <!-- Background Elements -->
+            <div class="absolute inset-0 -z-10 overflow-hidden">
+                <div class="absolute -top-[30%] -right-[10%] w-[70rem] h-[70rem] rounded-full bg-indigo-50/50 blur-3xl"></div>
+                <div class="absolute top-[20%] -left-[10%] w-[50rem] h-[50rem] rounded-full bg-purple-50/50 blur-3xl"></div>
+            </div>
+
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-                <div class="text-center max-w-4xl mx-auto">
-                    <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-8 leading-[1.1]">
-                        Invoice like a <span class="text-indigo-600">pro</span>,<br class="hidden md:block" /> straight from your pocket.
+                <div class="text-center max-w-5xl mx-auto">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 text-indigo-600 font-medium text-sm mb-8 hover:bg-indigo-100 transition-colors cursor-default">
+                        <span class="relative flex h-2 w-2">
+                          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+                          <span class="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
+                        </span>
+                        New: Offline Mode Available
+                    </div>
+                    
+                    <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-gray-900 mb-8 leading-[1.05]">
+                        Invoice faster.<br />
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">Get paid sooner.</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-gray-500 mb-12 leading-relaxed max-w-2xl mx-auto">
-                        The fully offline mobile billing app for freelancers who want to get paid effortlessly, without the internet.
+                    
+                    <p class="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed max-w-2xl mx-auto">
+                        The professional mobile billing app that works completely offline. Zero friction, zero complex setup.
                     </p>
+                    
                     <div class="flex flex-col sm:flex-row justify-center gap-4 items-center">
-                        <a href="/pricing" class="w-full sm:w-auto px-10 py-5 rounded-full bg-indigo-600 text-white font-semibold text-lg hover:bg-indigo-700 transition duration-200 shadow-sm">
-                            Get Started for Free
+                        <a href="/pricing" class="group relative w-full sm:w-auto px-8 py-4 rounded-full bg-gray-900 text-white font-semibold text-lg hover:bg-gray-800 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+                            Start Free Trial
+                            <span class="absolute inset-x-0 -bottom-px block h-px w-full bg-gradient-to-r from-indigo-500/0 via-indigo-500/70 to-indigo-500/0 opacity-0 transition-opacity group-hover:opacity-100"></span>
+                        </a>
+                        <a href="#how-it-works" class="w-full sm:w-auto px-8 py-4 rounded-full bg-white text-gray-700 font-semibold text-lg border border-gray-200 hover:bg-gray-50 hover:border-gray-300 transition-all duration-200">
+                            How it works
                         </a>
                     </div>
-                    <p class="mt-6 text-sm text-gray-400">No credit card required · Cancel anytime</p>
+                    
+                    <div class="mt-8 flex items-center justify-center gap-x-8 gap-y-4 flex-wrap text-sm text-gray-500">
+                        <div class="flex items-center gap-2">
+                            <svg class="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>No credit card required</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                             <svg class="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>14-day free trial</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                             <svg class="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Cancel anytime</span>
+                        </div>
+                    </div>
                 </div>
                 
                 <!-- Mockup / Visual -->
-                <div class="mt-20 relative mx-auto max-w-5xl">
-                    <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-[16/9] flex items-center justify-center overflow-hidden shadow-xl">
-                        <div class="text-gray-400 text-lg font-medium">App Dashboard Interface</div>
+                <div class="mt-24 relative mx-auto max-w-6xl group perspective">
+                    <!-- Glow effect behind mockup -->
+                    <div class="absolute -inset-1 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-1000"></div>
+                    
+                    <div class="relative bg-gray-900 rounded-2xl border border-gray-800 aspect-[16/9] flex items-center justify-center overflow-hidden shadow-2xl">
+                        <!-- Abstract UI representation -->
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-800/50 to-gray-900/50"></div>
+                        
+                        <div class="relative z-10 text-center">
+                            <div class="w-20 h-20 bg-indigo-600/20 rounded-2xl mx-auto mb-4 flex items-center justify-center backdrop-blur-sm border border-indigo-500/30">
+                                <svg class="w-10 h-10 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                            <div class="text-gray-400 text-lg font-medium">App Interface Preview</div>
+                        </div>
                     </div>
                 </div>
             </div>
