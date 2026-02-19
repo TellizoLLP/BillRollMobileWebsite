@@ -14,7 +14,7 @@
                         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
                         <span class="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
                     </span>
-                    New: Offline Mode Available
+                    New Offline Mode 
                 </div>
                 
                 <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-gray-900 mb-8 leading-[1.05]">
@@ -39,15 +39,15 @@
                 <div class="mt-8 flex items-center justify-center gap-x-8 gap-y-4 flex-wrap text-sm text-gray-500">
                     <div class="flex items-center gap-2">
                         <svg class="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                        <span>No credit card required</span>
+                        <span>100% Offline – No Internet Required</span>
                     </div>
                     <div class="flex items-center gap-2">
                             <svg class="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                        <span>14-day free trial</span>
+                        <span>Your Data Stays on Your Device</span>
                     </div>
                     <div class="flex items-center gap-2">
                             <svg class="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                        <span>Cancel anytime</span>
+                        <span>Fast & Simple Billing</span>
                     </div>
                 </div>
             </div>
@@ -249,10 +249,10 @@
                         </div>
                     </div>
 
-                    <!-- FAQ Item 2 -->
+                    <!-- FAQ Iten 2 -->
                     <div class="border-b border-gray-200">
                         <button class="faq-btn w-full py-8 text-left focus:outline-none flex justify-between items-start group">
-                            <span class="text-xl font-medium text-gray-900 group-hover:text-indigo-600 transition-colors pr-8">How secure is my financial data?</span>
+                            <span class="text-xl font-medium text-gray-900 group-hover:text-indigo-600 transition-colors pr-8">Where is my data stored?</span>
                             <span class="relative flex-shrink-0 ml-4 h-6 w-6 text-gray-400 group-hover:text-indigo-600 transition">
                                 <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
@@ -260,14 +260,14 @@
                             </span>
                         </button>
                         <div class="faq-content hidden pb-8 text-gray-600 text-lg leading-relaxed">
-                            <p>Security is our top priority. We use 256-bit SSL encryption (the same level as banks) to protect your data. We never store credit card details directly; all payments are processed through Stripe.</p>
+                            <p>Your data lives on your device first. This ensures maximum privacy and instant loading times. We offer secure, optional cloud backups so you can restore your data if you switch phones or reinstall the app.</p>
                         </div>
                     </div>
 
                     <!-- FAQ Item 3 -->
                     <div class="border-b border-gray-200">
                         <button class="faq-btn w-full py-8 text-left focus:outline-none flex justify-between items-start group">
-                            <span class="text-xl font-medium text-gray-900 group-hover:text-indigo-600 transition-colors pr-8">Can I cancel my subscription anytime?</span>
+                            <span class="text-xl font-medium text-gray-900 group-hover:text-indigo-600 transition-colors pr-8">Do I need an internet connection?</span>
                             <span class="relative flex-shrink-0 ml-4 h-6 w-6 text-gray-400 group-hover:text-indigo-600 transition">
                                 <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
@@ -275,7 +275,7 @@
                             </span>
                         </button>
                         <div class="faq-content hidden pb-8 text-gray-600 text-lg leading-relaxed">
-                                <p>Absolutely. There are no lock-in contracts. You can downgrade to the free plan or cancel your account entirely at any time from your dashboard settings.</p>
+                                <p>No. BillRoll is built to be 100% offline-capable. You can generate invoices, manage inventory, and record payments in remote areas without signal. The app effectively functions as a digital notebook that fits in your pocket.</p>
                         </div>
                     </div>
 
@@ -297,7 +297,7 @@
                     <!-- FAQ Item 5 -->
                     <div class="border-b border-gray-200">
                         <button class="faq-btn w-full py-8 text-left focus:outline-none flex justify-between items-start group">
-                            <span class="text-xl font-medium text-gray-900 group-hover:text-indigo-600 transition-colors pr-8">Is there a mobile app?</span>
+                            <span class="text-xl font-medium text-gray-900 group-hover:text-indigo-600 transition-colors pr-8">How do I send the invoices?</span>
                             <span class="relative flex-shrink-0 ml-4 h-6 w-6 text-gray-400 group-hover:text-indigo-600 transition">
                                 <svg class="w-6 h-6 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
@@ -305,7 +305,7 @@
                             </span>
                         </button>
                         <div class="faq-content hidden pb-8 text-gray-600 text-lg leading-relaxed">
-                                <p>Our web platform is fully responsive and works perfectly on mobile browsers. We are currently developing native apps for iOS and Android which will be released in Q4.</p>
+                                <p>Once you're back online, you can share invoices via WhatsApp, Email, or SMS directly from the app. You can also generate PDFs offline to print via a Bluetooth printer or save for later.</p>
                         </div>
                     </div>
                 </div>

@@ -25,7 +25,7 @@
                             <div class="ml-4">
                                 <h3 class="text-lg font-medium text-gray-900">Email us</h3>
                                 <p class="mt-1 text-gray-500">
-                                    <a href="mailto:support@billroll.com" class="hover:text-indigo-600 transition">support@billroll.com</a>
+                                    <a href="mailto:support@billroll.com" class="hover:text-indigo-600 transition">tellizo.com@gmail.com</a>
                                 </p>
                                 <p class="text-gray-400 text-sm mt-1">Typical response time: Within 2 hours</p>
                             </div>
@@ -44,9 +44,9 @@
                             <div class="ml-4">
                                 <h3 class="text-lg font-medium text-gray-900">Visit us</h3>
                                 <p class="mt-1 text-gray-500">
-                                    123 Innovation Drive<br>
-                                    Suite 400<br>
-                                    San Francisco, CA 94107
+                                    Tellizo IT Solutions<br>
+                                    Eravipuram , Kollam<br>
+                                    Kerala, India - 691016
                                 </p>
                             </div>
                         </div>
