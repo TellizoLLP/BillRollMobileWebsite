@@ -75,10 +75,8 @@
                 @endforeach
                 <a href="/#faq" class="block px-4 py-3 rounded-xl text-base font-medium text-gray-600 hover:text-indigo-600 hover:bg-gray-50">FAQ</a>
             </div>
-            <div class="pt-4 border-t border-gray-100 grid grid-cols-2 gap-4">
-                <a href="/login" class="flex items-center justify-center px-4 py-3 rounded-xl text-base font-medium text-gray-600 hover:text-indigo-600 hover:bg-gray-50 border border-gray-200">
-                    Log in
-                </a>
+            <div class="pt-4 border-t border-gray-100 flex items-center justify-center gap-4">
+               
                 <a href="/pricing" class="flex items-center justify-center px-4 py-3 rounded-xl text-base font-medium bg-indigo-600 text-white hover:bg-indigo-700 shadow-md">
                     Get Started
                 </a>
