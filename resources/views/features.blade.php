@@ -28,8 +28,16 @@
                         Create and send professional invoices in seconds. Our intuitive editor allows you to customize every detail, from line items to tax rates. Set up recurring invoices for regular clients and never miss a payment cycle.
                     </p>
                 </div>
-                <div class="md:w-1/2 bg-gray-100 rounded-2xl h-64 md:h-80 flex items-center justify-center border border-gray-200">
-                    <span class="text-gray-400">Invoicing Dashboard Preview</span>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative rounded-3xl border-gray-800 bg-gray-800 border-[14px] w-[300px] h-[600px] shadow-xl">
+                        <div class="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
+                        <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+                        <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+                        <div class="h-[64px] w-[3px] bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+                        <div class="rounded-[2rem] overflow-hidden w-full h-full bg-white dark:bg-gray-800">
+                            <img src="{{ asset('assets/img/invoice.jpeg') }}" class="w-full h-full object-cover" alt="Instant Invoicing App Screenshot">
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -46,8 +54,16 @@
                         Keep your business finances in check. Snap photos of receipts, categorize expenses, and link them to projects or clients. BillRoll automatically calculates your profit margins so you always know where you stand.
                     </p>
                 </div>
-                <div class="md:w-1/2 bg-gray-100 rounded-2xl h-64 md:h-80 flex items-center justify-center border border-gray-200">
-                    <span class="text-gray-400">Expense Tracking UI Preview</span>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative rounded-3xl border-gray-800 bg-gray-800 border-[14px] w-[300px] h-[600px] shadow-xl">
+                        <div class="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
+                        <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+                        <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+                        <div class="h-[64px] w-[3px] bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+                        <div class="rounded-[2rem] overflow-hidden w-full h-full bg-white dark:bg-gray-800">
+                             <img src="{{ asset('assets/img/expense.jpeg') }}" class="w-full h-full object-cover" alt="Expense Tracking App Screenshot">
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -64,8 +80,16 @@
                         Visual reports that make sense. Track overdue invoices, monitor monthly revenue, and identify your top clients. Export data to your favorite accounting software with a single click.
                     </p>
                 </div>
-                <div class="md:w-1/2 bg-gray-100 rounded-2xl h-64 md:h-80 flex items-center justify-center border border-gray-200">
-                    <span class="text-gray-400">Analytics Graph Preview</span>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative rounded-3xl border-gray-800 bg-gray-800 border-[14px] w-[300px] h-[600px] shadow-xl">
+                        <div class="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
+                        <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+                        <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+                        <div class="h-[64px] w-[3px] bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+                        <div class="rounded-[2rem] overflow-hidden w-full h-full bg-white dark:bg-gray-800">
+                            <img src="{{ asset('assets/img/finance.jpeg') }}" class="w-full h-full object-cover" alt="Financial Insights App Screenshot">
+                        </div>
+                    </div>
                 </div>
             </div>
 
