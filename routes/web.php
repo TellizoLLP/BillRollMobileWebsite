@@ -34,3 +34,7 @@ Route::get('/terms-and-conditions', function () {
     return view('terms-and-conditions');
 });
 
+Route::get('/data-storage-policy', function () {
+    return view('data-storage-policy');
+});
+

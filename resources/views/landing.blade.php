@@ -401,6 +401,7 @@
                         <li><a href="/about-us" class="hover:text-indigo-400 transition">About Us</a></li>
                         <li><a href="/privacy-policy" class="hover:text-indigo-400 transition">Privacy Policy</a></li>
                         <li><a href="/terms-and-conditions" class="hover:text-indigo-400 transition">Terms & Conditions</a></li>
+                        <li><a href="/data-storage-policy" class="hover:text-indigo-400 transition">Data Policy</a></li>
                     </ul>
                 </div>
                 <div>
