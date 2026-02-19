@@ -218,46 +218,6 @@
         </div>
     </section>
 
-    <!-- Pricing Teaser Section -->
-    <section class="py-24 bg-white">
-        <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gray-900 rounded-3xl p-8 md:p-16 overflow-hidden relative">
-                <!-- Abstract geometric decoration -->
-                <div class="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-gray-800 rounded-full opacity-50 blur-3xl"></div>
-                <div class="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-indigo-900 rounded-full opacity-50 blur-3xl"></div>
-
-                <div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <h2 class="text-4xl md:text-5xl font-bold text-white tracking-tight mb-6">
-                            Start for <span class="text-indigo-400">$0</span>.
-                        </h2>
-                        <p class="text-xl text-gray-400 max-w-md">
-                            No credit card needed. Upgrade only when you have more than 3 clients. Simple as that.
-                        </p>
-                    </div>
-                    
-                    <div class="flex flex-col sm:flex-row gap-6 lg:justify-end">
-                        <div class="text-center sm:text-left">
-                            <span class="block text-3xl font-bold text-white mb-1">Free</span>
-                            <span class="text-gray-500 text-sm">For individuals</span>
-                        </div>
-                        <div class="hidden sm:block w-px h-12 bg-gray-700"></div>
-                            <div class="text-center sm:text-left">
-                            <span class="block text-3xl font-bold text-white mb-1">$15</span>
-                            <span class="text-gray-500 text-sm">For teams</span>
-                        </div>
-                        
-                        <a href="/pricing" class="mt-6 sm:mt-0 sm:ml-8 inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-gray-900 font-bold hover:bg-gray-100 transition duration-300">
-                            View Full Pricing
-                            <svg class="w-5 h-5 ml-2 -mr-1 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- FAQ Section -->
     <section id="faq" class="py-24 bg-gray-50">

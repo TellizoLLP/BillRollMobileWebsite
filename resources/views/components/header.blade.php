@@ -18,7 +18,7 @@
                 @foreach([
                     ['label' => 'Features', 'url' => 'features'],
                     ['label' => 'How it Works', 'url' => 'how-it-works'],
-                    ['label' => 'Pricing', 'url' => 'pricing'],
+                    ['label' => 'About Us', 'url' => 'about-us'],
                 ] as $item)
                     <a href="/{{ $item['url'] }}" 
                        class="px-4 py-2 rounded-full text-sm font-medium transition-colors {{ request()->is($item['url']) ? 'text-indigo-600 bg-indigo-50' : 'text-gray-600 hover:text-indigo-600 hover:bg-gray-50' }}">
@@ -66,7 +66,7 @@
                 @foreach([
                     ['label' => 'Features', 'url' => 'features'],
                     ['label' => 'How it Works', 'url' => 'how-it-works'],
-                    ['label' => 'Pricing', 'url' => 'pricing'],
+                    ['label' => 'About Us', 'url' => 'about-us'],
                 ] as $item)
                     <a href="/{{ $item['url'] }}" 
                        class="block px-4 py-3 rounded-xl text-base font-medium {{ request()->is($item['url']) ? 'text-indigo-600 bg-indigo-50' : 'text-gray-600 hover:text-indigo-600 hover:bg-gray-50' }}">

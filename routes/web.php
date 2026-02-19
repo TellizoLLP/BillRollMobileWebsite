@@ -14,9 +14,7 @@ Route::get('/how-it-works', function () {
     return view('how-it-works');
 });
 
-Route::get('/pricing', function () {
-    return view('pricing');
-});
+// Pricing route removed
 
 Route::get('/about-us', function () {
     return view('about-us');
