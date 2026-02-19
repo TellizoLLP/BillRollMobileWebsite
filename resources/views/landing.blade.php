@@ -53,23 +53,24 @@
             </div>
             
             <!-- Mockup / Visual -->
-            <div class="mt-24 relative mx-auto max-w-6xl group perspective">
-                <!-- Glow effect behind mockup -->
-                <div class="absolute -inset-1 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-1000"></div>
-                
-                <div class="relative bg-gray-900 rounded-2xl border border-gray-800 aspect-[16/9] flex items-center justify-center overflow-hidden shadow-2xl">
-                    <!-- Abstract UI representation -->
-                    <div class="absolute inset-0 bg-gradient-to-b from-gray-800/50 to-gray-900/50"></div>
-                    
-                    <div class="relative z-10 text-center">
-                        <div class="w-20 h-20 bg-indigo-600/20 rounded-2xl mx-auto mb-4 flex items-center justify-center backdrop-blur-sm border border-indigo-500/30">
-                            <svg class="w-10 h-10 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
-                        </div>
-                        <div class="text-gray-400 text-lg font-medium">App Interface Preview</div>
-                    </div>
-                </div>
+            <div class="mt-20 relative mx-auto max-w-7xl px-4 flex justify-center items-center gap-4 sm:gap-10 perspective-[2000px] overflow-visible h-[650px]">
+                 <!-- Glow effect -->
+                 <div class="absolute inset-x-0 top-1/2 -translate-y-1/2 h-[300px] bg-[#c1e3ec] blur-[100px] rounded-full"></div>
+
+                 <!-- Left Phone Image -->
+                 <div class="hidden sm:block relative z-10 w-[280px] h-[580px] rounded-[2.5rem] shadow-2xl opacity-80 transform -rotate-6 scale-95 transition-transform duration-500 hover:rotate-0 hover:scale-[0.98] border-[6px] border-gray-900 bg-gray-900 overflow-hidden flex-shrink-0">
+                    <img src="{{ asset('assets/img/pos.jpeg') }}" alt="App Screen 1" class="w-full h-full object-cover">
+                 </div>
+
+                 <!-- Center Phone Image -->
+                 <div class="relative z-20 w-[300px] h-[620px] rounded-[2.5rem] shadow-2xl ring-1 ring-white/20 transform transition-transform duration-300 hover:scale-[1.02] border-[8px] border-gray-900 bg-gray-900 overflow-hidden flex-shrink-0">
+                    <img src="{{ asset('assets/img/dashboard.jpeg') }}" alt="App Main Screen" class="w-full h-full object-cover">
+                 </div>
+
+                 <!-- Right Phone Image -->
+                 <div class="hidden sm:block relative z-10 w-[280px] h-[580px] rounded-[2.5rem] shadow-2xl opacity-80 transform rotate-6 scale-95 transition-transform duration-500 hover:rotate-0 hover:scale-[0.98] border-[6px] border-gray-900 bg-gray-900 overflow-hidden flex-shrink-0">
+                    <img src="{{ asset('assets/img/more.jpeg') }}" alt="App Screen 3" class="w-full h-full object-cover">
+                 </div>
             </div>
         </div>
     </section>
