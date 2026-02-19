@@ -30,8 +30,8 @@
 
             <!-- Actions -->
             <div class="hidden md:flex items-center gap-4">
-                <a href="/login" class="text-sm font-medium text-gray-600 hover:text-indigo-600 transition">Log in</a>
-                <a href="/pricing" class="px-5 py-2.5 rounded-full bg-indigo-600 text-white text-sm font-semibold hover:bg-indigo-700 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5">
+                
+                <a href="/contact-us" class="px-5 py-2.5 rounded-full bg-indigo-600 text-white text-sm font-semibold hover:bg-indigo-700 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5">
                     Get Started
                 </a>
             </div>

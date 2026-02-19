@@ -78,7 +78,7 @@
             <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Ready to streamline your billing?</h2>
             <p class="mt-4 text-indigo-100 text-lg">Join thousands of freelancers who trust BillRoll.</p>
             <div class="mt-8">
-                <a href="/pricing" class="px-8 py-3 bg-white text-indigo-600 font-bold rounded-full shadow-lg hover:bg-gray-100 transition">View Pricing</a>
+                <a href="/pricing" class="px-8 py-3 bg-white text-indigo-600 font-bold rounded-full shadow-lg hover:bg-gray-100 transition">Install Now</a>
             </div>
         </div>
     </section>

@@ -161,7 +161,7 @@
                 <p class="text-xl text-gray-400 mb-10">Join thousands of business owners who save 10+ hours a week with BillRoll.</p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="/pricing" class="px-8 py-4 rounded-full bg-white text-gray-900 font-bold text-lg hover:bg-gray-100 transition">
-                    Get Started for Free
+                    Install Now
                 </a>
                 </div>
             </div>

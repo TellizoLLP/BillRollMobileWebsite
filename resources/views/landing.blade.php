@@ -28,7 +28,7 @@
                 
                 <div class="flex flex-col sm:flex-row justify-center gap-4 items-center">
                     <a href="/pricing" class="group relative w-full sm:w-auto px-8 py-4 rounded-full bg-gray-900 text-white font-semibold text-lg hover:bg-gray-800 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-0.5">
-                        Start Free Trial
+                        Install Now
                         <span class="absolute inset-x-0 -bottom-px block h-px w-full bg-gradient-to-r from-indigo-500/0 via-indigo-500/70 to-indigo-500/0 opacity-0 transition-opacity group-hover:opacity-100"></span>
                     </a>
                     <a href="/how-it-works" class="w-full sm:w-auto px-8 py-4 rounded-full bg-white text-gray-700 font-semibold text-lg border border-gray-200 hover:bg-gray-50 hover:border-gray-300 transition-all duration-200">
@@ -145,8 +145,8 @@
                         <div class="space-y-2 p-8 text-center">
                             <h3 class="text-2xl md:text-3xl font-bold text-gray-900">Switch to smart mobile billing in <span class="text-indigo-600">2 minutes</span>.</h3>
                             <div class="pt-6">
-                                <a href="/pricing" class="text-indigo-600 font-semibold hover:text-indigo-800 transition flex items-center justify-center gap-2 group-hover:gap-3">
-                                    Get Started Free <span aria-hidden="true">&rarr;</span>
+                                <a href="/contact-us" class="text-indigo-600 font-semibold hover:text-indigo-800 transition flex items-center justify-center gap-2 group-hover:gap-3">
+                                    Install Now<span aria-hidden="true">&rarr;</span>
                                 </a>
                             </div>
                         </div>

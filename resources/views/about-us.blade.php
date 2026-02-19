@@ -47,13 +47,13 @@
                     <h2 class="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                     <div class="prose prose-lg text-gray-500">
                         <p class="mb-4">
-                            Started in 2024, BillRoll began with a simple observation: mobile invoicing apps were either too complicated or too expensive for the solo freelancer.
+                            Founded in 2020, Tellizo IT Solutions was built with a mission to create simple, practical software solutions for modern businesses.
                         </p>
                         <p class="mb-4">
-                            Our founders, Isaac and Sarah, were running a design agency and found themselves spending Friday nights wrestling with spreadsheets instead of enjoying the weekend. They built the first version of BillRoll to solve their own problem.
+                           BillRoll was developed after recognizing that many mobile invoicing apps were either too complicated or too expensive for solo freelancers and small business owners. The goal was simple: make billing fast, clear, and stress-free.
                         </p>
                         <p>
-                            Today, we serve thousands of freelancers, contractors, and small business owners who just want to send a bill and get back to what they love.
+                            Today, BillRoll helps freelancers, contractors, and small business owners create invoices effortlessly so they can focus on growing their business instead of managing paperwork.
                         </p>
                     </div>
                 </div>
