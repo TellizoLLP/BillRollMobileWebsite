@@ -19,7 +19,7 @@
                 
                 <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-gray-900 mb-8 leading-[1.05]">
                     Invoice faster.<br />
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">Get paid sooner.</span>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-cyan-200">Get paid sooner.</span>
                 </h1>
                 
                 <p class="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed max-w-2xl mx-auto">
@@ -141,7 +141,7 @@
             <div class="mt-20 text-center">
                 <p class="text-lg text-gray-500 mb-6 font-medium">It doesn't have to be this hard.</p>
                 <div class="inline-block relative group">
-                    <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+                    <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-indigo-800 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                     <div class="relative bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
                         <div class="space-y-2 p-8 text-center">
                             <h3 class="text-2xl md:text-3xl font-bold text-gray-900">Switch to smart mobile billing in <span class="text-indigo-600">2 minutes</span>.</h3>
