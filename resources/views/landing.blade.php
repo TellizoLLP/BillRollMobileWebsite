@@ -68,34 +68,28 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
+        <section class="pt-32 pb-16 lg:pt-48 lg:pb-32 overflow-hidden bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-                <div class="text-center max-w-3xl mx-auto">
-                    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900 mb-6">
-                        Invoicing for the <span class="text-indigo-600">modern mobile business</span>
+                <div class="text-center max-w-4xl mx-auto">
+                    <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 mb-8 leading-[1.1]">
+                        Invoice like a <span class="text-indigo-600">pro</span>,<br class="hidden md:block" /> straight from your pocket.
                     </h1>
-                    <p class="text-xl text-gray-600 mb-10 leading-relaxed">
-                        Create, send, and track professional invoices directly from your phone. BillRoll helps freelancers and small businesses get paid faster.
+                    <p class="text-xl md:text-2xl text-gray-500 mb-12 leading-relaxed max-w-2xl mx-auto">
+                        The fully offline mobile billing app for freelancers who want to get paid effortlessly, without the internet.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4">
-                        <a href="/pricing" class="px-8 py-4 rounded-full bg-indigo-600 text-white font-bold text-lg hover:bg-indigo-700 transition shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                            Start Free Trial
-                        </a>
-                        <a href="/features" class="px-8 py-4 rounded-full bg-white text-gray-700 border border-gray-200 font-bold text-lg hover:bg-gray-50 transition">
-                            Learn More
+                    <div class="flex flex-col sm:flex-row justify-center gap-4 items-center">
+                        <a href="/pricing" class="w-full sm:w-auto px-10 py-5 rounded-full bg-indigo-600 text-white font-semibold text-lg hover:bg-indigo-700 transition duration-200 shadow-sm">
+                            Get Started for Free
                         </a>
                     </div>
+                    <p class="mt-6 text-sm text-gray-400">No credit card required · Cancel anytime</p>
                 </div>
                 
                 <!-- Mockup / Visual -->
-                <div class="mt-16 relative mx-auto max-w-4xl">
-                    <div class="bg-gray-100 rounded-2xl shadow-2xl border border-gray-200 aspect-[16/9] flex items-center justify-center overflow-hidden z-10 relative bg-white/50 backdrop-blur-sm">
-                        <div class="text-gray-400 text-lg font-medium">App Dashboard Mockup Placeholder</div>
+                <div class="mt-20 relative mx-auto max-w-5xl">
+                    <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-[16/9] flex items-center justify-center overflow-hidden shadow-xl">
+                        <div class="text-gray-400 text-lg font-medium">App Dashboard Interface</div>
                     </div>
-                     <!-- Decorative blobs -->
-                    <div class="absolute -top-12 -left-12 w-64 h-64 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
-                    <div class="absolute -top-12 -right-12 w-64 h-64 bg-indigo-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
-                    <div class="absolute -bottom-8 left-20 w-64 h-64 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
                 </div>
             </div>
         </section>
@@ -195,11 +189,11 @@
                     <div class="col-span-1 md:col-span-2 bg-gray-50 rounded-3xl p-10 hover:bg-gray-100 transition duration-300 group">
                         <div class="h-full flex flex-col justify-between">
                             <div>
-                                <h3 class="text-4xl font-extrabold text-gray-900 mb-4 group-hover:text-indigo-600 transition">Get Paid 2x Faster.</h3>
-                                <p class="text-lg text-gray-600 max-w-md">Stop chasing clients. Automated reminders and instant payment links mean money in your account sooner.</p>
+                                <h3 class="text-4xl font-extrabold text-gray-900 mb-4 group-hover:text-indigo-600 transition">100% Offline Capable.</h3>
+                                <p class="text-lg text-gray-600 max-w-md">No signal? No problem. Create invoices, manage clients, and track payments without an internet connection. Sync when you're back online.</p>
                             </div>
                             <div class="mt-8 flex items-end justify-end">
-                                <span class="text-9xl font-black text-gray-200 group-hover:text-indigo-100 transition select-none">2x</span>
+                                <span class="text-9xl font-black text-gray-200 group-hover:text-indigo-100 transition select-none">OFF</span>
                             </div>
                         </div>
                     </div>
@@ -212,8 +206,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold mb-2">Secure by Default</h3>
-                            <p class="text-gray-400">Bank-level encryption keeps your financial data safe.</p>
+                            <h3 class="text-2xl font-bold mb-2">Data Privacy First</h3>
+                            <p class="text-gray-400">Your data stays on your device until you decide to back it up.</p>
                         </div>
                     </div>
 
@@ -221,14 +215,14 @@
                     <div class="bg-indigo-600 rounded-3xl p-10 text-white flex flex-col justify-between overflow-hidden relative group">
                         <div class="absolute right-0 top-0 w-32 h-32 bg-white/10 rounded-bl-full transition-transform group-hover:scale-150 duration-500"></div>
                         <div class="relative z-10">
-                            <h3 class="text-2xl font-bold mb-2">Work Anywhere</h3>
-                            <p class="text-indigo-100">Syncs across all your devices instantly.</p>
+                            <h3 class="text-2xl font-bold mb-2">Lightning Fast</h3>
+                            <p class="text-indigo-100">Zero loading times. The app runs directly on your phone's processor.</p>
                         </div>
                         <div class="mt-8 relative z-10">
                             <div class="flex space-x-2">
-                                <div class="w-3 h-3 bg-white rounded-full animate-bounce"></div>
-                                <div class="w-3 h-3 bg-white rounded-full animate-bounce delay-100"></div>
-                                <div class="w-3 h-3 bg-white rounded-full animate-bounce delay-200"></div>
+                                <svg class="w-8 h-8 text-white animate-pulse" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
                             </div>
                         </div>
                     </div>
@@ -237,7 +231,7 @@
                     <div class="col-span-1 md:col-span-2 bg-gray-50 rounded-3xl p-10 hover:bg-gray-100 transition duration-300 flex items-center">
                         <div>
                             <h3 class="text-2xl font-bold text-gray-900 mb-2">Professional formatting, zero effort.</h3>
-                            <p class="text-gray-600">Your invoices are a reflection of your brand. We make sure you look good every time using smart templates that adjust to your content.</p>
+                            <p class="text-gray-600">Your invoices are a reflection of your brand. We make sure you look good every time using smart templates that come pre-loaded in the app.</p>
                         </div>
                     </div>
                 </div>
